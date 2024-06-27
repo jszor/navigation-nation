@@ -1,12 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
   --primaryColor: #fff;
   --navColor1: #21292c;
-  --navColor2: #ffca37;
-  --navColor3: #5e5046;
-  --navColor4: #2d353c;
-  --navColor5: #322614;
+  --navColor2: #1E2223;
+  --navColor3: #212824;
+  --navColor4: #38342E;
+  --navColor5: #281B0C;
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   background: #000;
-
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -74,7 +74,7 @@ section {
 }
 
 section#home {
-  background-image: url("https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  background-image: url("https://images.unsplash.com/photo-1519117181458-f06f466f06dc?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGZvZ2d5JTIwbGFuZHNjYXBlfGVufDB8fDB8fHww");
   background-size: cover;
   background-position: center center;
 }
